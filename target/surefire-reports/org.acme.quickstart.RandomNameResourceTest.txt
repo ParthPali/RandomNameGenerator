@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: org.acme.quickstart.RandomNameResourceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.798 s <<< FAILURE! - in org.acme.quickstart.RandomNameResourceTest
+testHelloEndpoint  Time elapsed: 1.439 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.acme.quickstart.RandomNameResourceTest.testHelloEndpoint(RandomNameResourceTest.java:19)
+
+testGreetingEndpoint  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at org.acme.quickstart.RandomNameResourceTest.testGreetingEndpoint(RandomNameResourceTest.java:30)
+
