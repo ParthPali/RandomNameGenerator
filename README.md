@@ -1,15 +1,10 @@
-## Requirements
-
-- JDK 1.8+
-- GraalVM
-
-## Building
+## Building the randomNameGenerator
 
 Launch the Maven build on the checked out sources of this demo:
 
 > ./mvnw package
 
-### Running
+### Running the randomNameGenerator
 
 Write the command in terminal:
 > ./mvnw compile quarkus:dev
